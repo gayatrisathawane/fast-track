@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(203, 222, 238);
+}
+.border-bottom{
+    border-bottom: 1px dashed grey;
+}
+.reciept-container{
+    background-color: rgb(255, 252, 252);
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.college-logo{
+    height:90px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.receipt-header{
+    display: flex;
+  
+}
+/* .receipt-header-info{
+    margin-top: 10px;
+} */
+.receipt-header-tittle{
+    color:rgb(8, 74, 172);
+    font-size: 42px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.sub-header-tittle{
+    color: rgb(8, 75, 172);
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.header-address{
+    color: rgb(232, 37, 37);
+    margin-left: 20px;
+}
+.receipt-body{
+    padding: 10px;
+}
+
+.receipt-student-details{
+    display: flex;
+    justify-content: space-between;
+}
+.font-weight{
+    font-weight: bold;
+}
+
+.receipt-payment-detail{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 20px;
+   
+}
+
+.receipt-payment-container{
+    border-bottom: 1px solid black;
+
+}
+
+.total-payment-continer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 100px;
+    border-bottom: 1px solid black;
+}
+
+.chashier-container{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.stamp-container{
+    margin-top: 30px;
+}
+.stamp{
+    position: absolute;
+    right:10px;
+    bottom: 50px;
+    height: 80px;
+    translate: rotate(45deg);
+
+}
+.word-payment-amount{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.thank-message{
+    text-align: center;
+    font-size: 20px;
+    margin:10px;
+}
+.receipt-no{
+    color: red;
+}
